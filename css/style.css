@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url(../img/background.png);
+}
+.cabecalho{
+    background-image: url(../img/background2.png);
+    height: 665px;
+    width: 250px;
+}
+#logo{
+    margin-top: -55px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: -10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
