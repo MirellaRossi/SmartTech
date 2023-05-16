@@ -27,3 +27,26 @@ nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+section{
+    background-color: #F2924F;
+    padding: 20px;
+    width: 170px;
+    text-align: center;
+    display: inline-block;
+}
+.meio{
+    display: inline-block;
+}
+.section2{
+    margin-left: 100px;
+}
+.cabecalho, .conteudo{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+#titulo{
+    text-align: center;
+}
+.conteudo{
+    margin-left: 80px;
+}
