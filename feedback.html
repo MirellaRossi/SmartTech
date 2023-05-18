@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/feedback.css">
+    <title>FeedBack</title>
+</head>
+<body>
+    <h1 class="tit">Deixe sua opinião</h1>
+    <form action="cadastrar" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="c-name">Nome</label>
+            <input type="text" required="" name="nome" id="c-nome"><br>
+            <label for="c-sobrenome">Sobrenome</label>
+            <input type="text" required="" name="sobrenome" id="c-sobrenome"> <br>
+            <label for="c-email">E-mail</label>
+            <input type="email" required="" name="email" id="c-email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Informações</legend>
+            <label for="c-zona"><b>De onde você é?</b></label><br>
+            <input type="radio" required="" name="zona" id="c-centro" value="Centro">
+            <label for="c-centro">Centro</label><br>
+            <input type="radio" required="" name="zona" id="c-sul" value="Sul">
+            <label for="c-sul">Zona Sul</label><br>
+            <input type="radio" required="" name="zona" id="c-norte" value="Norte">
+            <label for="c-norte">Zona Norte</label><br>
+            <input type="radio" required="" name="zona" id="c-oeste" value="Oeste">
+            <label for="c-norte">Zona Oeste</label><br>
+            <input type="radio" required="" name="zona" id="c-leste" value="Leste">
+            <label for="c-norte">Zona Leste</label><br>
+            <br>
+            <label for="c-transporte"><b>Quais os transportes utilizados?</b></label><br>
+            <input type="checkbox" name="transporte" id="c-trem" value="Trem">
+            <label for="c-trem">Trem</label><br>
+            <input type="checkbox" name="transporte" id="c-metro" value="Metrô">
+            <label for="c-metro">Metrô</label><br>
+            <input type="checkbox" name="transporte" id="c-onibus" value="Ônibus">
+            <label for="c-onibus">Ônibus</label><br>
+            <input type="checkbox" name="transporte" id="c-bicicleta" value="Bicicleta">
+            <label for="c-bicicleta">Bicicleta Compartilhada</label><br>
+            <br>
+            <label for="c-linha"><b>Qual linha você mais utiliza?</b></label>
+            <input type="text" required="" name="linha" id="c-linha"><br>
+            <br><br>
+            <label for="c-feedback"><b>Digite sua opinião ou experiência ao utilizar nosso aplicativo.</b></label><br><br>
+            <textarea name="obs" required="" id="c-obs" cols="60" rows="10"></textarea>
+        </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

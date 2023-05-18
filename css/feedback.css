@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-image: url(../img/background.png);
+}
+.tit{
+    margin-top: 30px;
+    margin-left: 30%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-shadow: 2px 1px 1px white;
+    letter-spacing: 2px;
+
+}
+form{
+    width: 560px;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
