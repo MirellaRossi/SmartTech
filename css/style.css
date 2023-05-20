@@ -27,3 +27,39 @@ nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
+.mapt{
+    text-align: center;
+    margin-top: -500px;
+    margin-left: 245px;
+    
+}
+
+.boxtxt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 250px;
+
+
+}
+.cxmaior{
+    background-color: #F2924F;
+    padding: 10px;
+    width: 170px;
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.cxmaior{
+    background-color: #F2924F;
+    padding: 10px;
+    width: 170px;
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
