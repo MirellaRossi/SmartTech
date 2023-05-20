@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+   
 }
 body{
     background-image: url(../img/background.png);
@@ -27,26 +28,39 @@ nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-section{
+
+.mapt{
+    text-align: center;
+    margin-top: -500px;
+    
+}
+
+.boxtxt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 250px;
+
+
+}
+.cxmaior{
     background-color: #F2924F;
-    padding: 20px;
+    padding: 10px;
     width: 170px;
+    display: flex;
     text-align: center;
-    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
 }
-.meio{
-    display: inline-block;
-}
-.section2{
-    margin-left: 100px;
-}
-.cabecalho, .conteudo{
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-}
-#titulo{
+
+.cxmaior{
+    background-color: #F2924F;
+    padding: 10px;
+    width: 170px;
+    display: flex;
     text-align: center;
-}
-.conteudo{
-    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
