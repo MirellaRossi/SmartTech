@@ -28,7 +28,8 @@ nav ul li a{
     font-weight: bold;
 }
 .mapt{
-    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;    
     margin-top: -500px;
     margin-left: 245px;
     
@@ -37,18 +38,24 @@ nav ul li a{
 .boxtxt{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-shrink: 1;
     margin-top: 25px;
     margin-left: 250px;
-
 
 }
 .cxmaior{
     background-color: #F2924F;
     padding: 10px;
     width: 170px;
-    display: flex;
+    display: block;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    box-sizing: border-box;
+
 
 
 
